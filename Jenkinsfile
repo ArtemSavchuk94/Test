@@ -3,19 +3,10 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                echo "build"
-                 cat index.html
+                echo "Hello world"
+                
             }
         }
-        stage('Test') { 
-            steps {
-               echo  "test"
-            }
-        }
-        stage('Deploy') { 
-            steps {
-                echo "deploy"
-            }
+        
         }
     }
-}
