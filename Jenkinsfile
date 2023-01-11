@@ -4,7 +4,7 @@ pipeline {
         stage('Build') { 
             steps {
                 echo "build"
-                data >> index.html
+                 cat index.html
             }
         }
         stage('Test') { 
